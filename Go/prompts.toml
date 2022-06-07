@@ -1,0 +1,33 @@
+[[prompt]]
+name="ProjectDirectory"
+prompt="Enter a directory in which to scaffold the project"
+default="go_buildpack"
+required=true
+
+[[prompt]]
+name="BuildpackApi"
+prompt="Choose the buildpack API version (use the default if you are unsure)"
+choices=["0.7", "0.8"]
+
+[[prompt]]
+name="BuildpackID"
+prompt="Enter an identifier for the buildpack"
+default="example/golang"
+required=true
+
+[[prompt]]
+name="BuildpackVersion"
+prompt="Enter the initial buildpack version"
+default="0.0.1"
+required=true
+
+[[prompt]]
+name="BuildpackStacks"
+prompt="Enter a stack this buildpack will support by default"
+default="io.buildpacks.samples.stacks.bionic"
+required=true
+
+[[prompt]]
+name="ModuleName"
+prompt="Enter a valid Go module name for this buildpack"
+default="github.com/user/buildpack"
