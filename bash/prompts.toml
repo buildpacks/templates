@@ -7,7 +7,7 @@ required=true
 [[prompt]]
 name="BuildpackApi"
 prompt="Choose the buildpack API version (use the default if you are unsure)"
-choices=["0.7", "0.8"]
+choices=["0.8", "0.7"]
 
 [[prompt]]
 name="BuildpackID"
